@@ -1,0 +1,7 @@
+<h1>Welcome Shopper</h1>
+<%= link_to 'Create a New Store', new_store_path %>
+<ul>
+  <% @stores.each do |store| %>
+      <li><%= link_to store.name, store_path(store) %></li>
+    <% end %>
+</ul>

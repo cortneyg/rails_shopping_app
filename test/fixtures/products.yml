@@ -2,8 +2,10 @@
 
 one:
   name: MyString
-  store_id: 1
+  price: MyString
+  list_id: 1
 
 two:
   name: MyString
-  store_id: 1
+  price: MyString
+  list_id: 1
